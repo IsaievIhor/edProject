@@ -1,28 +1,72 @@
-* {
-    box-sizing: border-box;
+header {
+    background-color: #60c8c7;
 }
 
-.header {
-    background-color: #60c8c7;
+.header-logo-tel {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: "Helvetica Grumov";
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.header__logo {
-
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
 }
 
-.header__nav {
+.top-menu {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.header__phone {
-    display: flex;
-    justify-content: space-between;
-    align-self: ;
+.top-menu :hover {
+    color: #ffffff;
 }
+
+nav li {
+    display: inline;
+    margin: 0px 15px;
+    font-size: 24px;
+    font-family: "Ubuntu";
+    color: #494848;
+    line-height: 1.25;
+    align-items: flex-end;
+}
+
+nav li a {
+    color: inherit;
+    text-decoration: unset;
+}
+
+.header-phone {
+    font-size: 20px;
+    font-family: "Ubuntu";
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-phone img {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+
+
+
+

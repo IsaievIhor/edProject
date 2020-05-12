@@ -7,49 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Единиый центр записи</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        .header {
-            background-color: #60c8c7;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .header__logo {
-
-        }
-
-        .header__nav {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        .header__phone {
-            display: flex;
-            justify-content: space-between;
-            align-self: ;
-        }
-    </style>
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-<header class="header">
-    <div class="header__logo">
-        <img src="img/logo.png" alt="logo">
-        <h1>Единый центр <br>записи</h1>
+<header>
+    <div class="header-logo-tel">
+        <div class="logo">
+            <img src="img/logo.png" alt="Единый центр записи">
+            <h1>Единый центр <br>записи</h1>
+        </div>
+        <div class="header-phone">
+            <img src="img/phone-square.png" alt="logo-phone">
+            <p>803005000</p>
+        </div>
     </div>
-    <nav class="header__nav">
+    <nav class="top-menu">
         <ul>
             <li><a href="#">Главная</a></li>
-            <li><em>Услуги</em> <img src="img/arrow-down.png" alt="logo-company">
-            </li>
+            <li><em>Услуги</em> <img src="img/arrow-down.png" alt="logo-company"></li>
             <li><a href="#">Клиники и кабинеты</a></li>
             <li><a href="#">О нас</a></li>
             <li><a href="#">Статьи</a></li>
@@ -57,10 +32,6 @@
             <li><a href="#">Контакты</a></li>
         </ul>
     </nav>
-    <div class="header__phone">
-        <img src="img/phone-square.png" alt="logo-phone">
-        <p>803005000</p>
-    </div>
 </header>
 
 
