@@ -1,6 +1,5 @@
 .header {
     background-color: #60c8c7;
-
 }
 
 .header__container {
@@ -9,14 +8,11 @@
     padding: 0 15px;
     display: flex;
     justify-content: space-between
-
 }
 
 .header__logo {
     display: flex;
     padding: 25px;
-
-
 }
 
 .header__logo_img {
@@ -96,16 +92,19 @@
     color: white;
 }
 
+/*Ð±Ð°Ð½Ð½ÐµÑ€*/
 
 .baner {
-    background: url("../img/banner.png") no-repeat;
-    width: 1440px;
-    height: 515px;
-    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.baner-container {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
-    flex-wrap: wrap;
+    flex-direction: column;
+    background: url("../img/banner.png") no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .baner p {
@@ -127,19 +126,23 @@
 }
 
 
+/*ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ° Ð¿Ñ€ÐµÐ¸Ð¼ÑƒÑ‰ÐµÑÑ‚Ð²*/
 
-
-.advantages{
+.advantages {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
     justify-content: space-between
 }
-.advantages-card{
+
+.advantages-card {
     display: flex;
     justify-content: space-between
 }
+
+
+/*ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ¸ ÐºÐ»Ð¸Ð½Ð¸Ðº*/
 main {
     max-width: 1440px;
     margin: 0 auto;
@@ -172,10 +175,7 @@ main {
     display: flex;
 }
 
-
-
-
-
+/*Ñ„ÑƒÑ‚ÐµÑ€*/
 .footer {
     display: flex;
     flex-direction: column;
@@ -207,7 +207,9 @@ main {
 
 .footer__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .footer__adress {
@@ -219,8 +221,9 @@ main {
     list-style: none;
 
 }
-.link img{
-    float:left;
+
+.link img {
+    float: left;
     padding-right: 25px;
 }
 
@@ -252,4 +255,13 @@ main {
     display: flex;
     justify-content: center;
     background-color: #60c8c7;
+}
+
+/*news*/
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
 }
