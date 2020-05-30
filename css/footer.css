@@ -1,0 +1,77 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__top {
+    background-color: #60c8c7;
+}
+
+.footer__logo {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__form {
+
+}
+
+.footer__form-text {
+
+}
+
+.footer__form-btn {
+
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__adress-link {
+    list-style: none;
+
+}
+.link img{
+    float:left;
+    padding-right: 25px;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link-link {
+    list-style: none;
+}
+
+.footer__service {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__service-link {
+    list-style: none;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__copiryte {
+    display: flex;
+    justify-content: center;
+    background-color: #60c8c7;
+}

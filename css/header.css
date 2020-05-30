@@ -1,75 +1,99 @@
 .header {
     background-color: #60c8c7;
-    width: 100%;
+
+}
+
+.header__container {
     max-width: 1440px;
-}
-
-.header-logotel {
+    margin: 0 auto;
+    padding: 0 15px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between
+
 }
 
-.header-logo {
+.header__logo {
+    display: flex;
+    padding: 25px;
+
+
+}
+
+.header__logo_img {
+    width: 60px;
+    height: 60px;
+    padding-right: 15px;
+}
+
+.header__logo_text {
+    margin: 0;
     font-size: 24px;
-    font-family: "Helvetica Grumov";
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
     text-shadow: 0px 6px 14px rgba(0, 0, 0, 0.35);
 }
 
-.header-logo__img {
-    width: 60px;
-    height: 60px;
-    margin: 15px;
+.header__phonemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 25px 0;
 }
 
-.top-menu {
+.header__phone {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
 }
 
-.top-menu :hover {
-    color: #ffffff;
+.header__phone_img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
 }
 
-nav li {
-    display: inline;
-    margin: 0px 15px;
-    font-size: 24px;
-    font-family: "Ubuntu";
-    color: #494848;
-    line-height: 1.25;
-    align-items: flex-end;
-}
-
-nav li a {
-    color: inherit;
-    text-decoration: unset;
-}
-
-.header-phone {
+.header__phone_text {
+    margin: 0px;
     font-size: 20px;
     font-family: "Ubuntu";
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.5;
+    text-align: left;
+}
+
+
+.header__nav {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
-.header-phone img {
-    width: 20px;
-    height: 20px;
-    margin: 15px;
+.header__topmenu {
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin: 0px;
 }
 
+.header__submenu {
+    display: none;
+}
 
+.header__topmenu_link {
+    margin-left: 27px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Ubuntu";
+    color: #424242;
+    line-height: 1.25;
+    text-align: left;
+
+}
+.header__topmenu_link-active{
+    color: white;
+}
 
 
 
