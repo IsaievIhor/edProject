@@ -92,10 +92,10 @@
     color: white;
 }
 
-/*Ð±Ð°Ð½Ð½ÐµÑ€*/
+/*банер*/
 
 .baner {
-    background-color: #f0f0f0;
+    background-color: #ccd5e7;
 }
 
 .baner-container {
@@ -125,6 +125,9 @@
     margin: 0px 15px;
 }
 
+.baner-form {
+    margin: 35px 15px;
+}
 
 /*ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ° Ð¿Ñ€ÐµÐ¸Ð¼ÑƒÑ‰ÐµÑÑ‚Ð²*/
 
@@ -138,7 +141,61 @@
 
 .advantages-card {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.advantages-card img {
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid white;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+
+
+}
+
+.advantages-card__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: "Ubuntu";
+}
+
+.advantages-card__list-first {
+    background-color: #00afab;
+}
+
+.advantages-card__list-second {
+    background-color: #63ccca;
+}
+
+.advantages-card__list-third {
+    background-color: #00afab;
+
+}
+
+.advantages-card__list-fourth {
+    background-color: #63ccca;
+}
+
+
+.clinic_menu {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.clinic_menu__list li {
+    display: inline-flex;
+    list-style: none;
+    padding-right:20px;
+
 }
 
 
@@ -173,8 +230,18 @@ main {
 
 .clinic_card__head {
     display: flex;
+    justify-content:space-around;
 }
-
+.clinic_card__head img{
+    width:200px;
+    height:55px;
+}
+.clinic_card__head h5{
+    font-size: 36px;
+    font-family: "Helvetica Grumov";
+    color: rgb(73, 72, 72);
+    margin:0;
+}
 /*Ñ„ÑƒÑ‚ÐµÑ€*/
 .footer {
     display: flex;
@@ -208,7 +275,7 @@ main {
 .footer__container {
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
