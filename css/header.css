@@ -108,7 +108,7 @@
     margin: 0 auto;
 }
 
-.baner p {
+.baner__text {
     font-size: 24px;
     font-family: "Ubuntu";
     color: rgb(73, 72, 72);
@@ -117,7 +117,7 @@
     margin: 120px 15px 50px 15px;
 }
 
-.baner h2 {
+.baner__heading {
     font-size: 36px;
     font-family: "Helvetica Grumov";
     color: rgb(73, 72, 72);
@@ -147,15 +147,13 @@
     margin: 0 auto;
 }
 
-.advantages-card img {
+.advantages-card_img {
     background-color: white;
     border-radius: 50%;
     border: 20px solid white;
     width: 40px;
     height: 40px;
     margin-top: 50px;
-
-
 }
 
 .advantages-card__list {
@@ -237,8 +235,16 @@
     color: rgb(73, 72, 72);
     margin: 0;
 }
+/*news*/
 
-/*Ñ„ÑƒÑ‚ÐµÑ€*/
+.news {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:20px;
+}
+/*футер*/
 .footer-top {
     background-color: #60c8c7;
 }
@@ -297,13 +303,4 @@
     display: flex;
     justify-content: center;
     background-color: #60c8c7;
-}
-
-/*news*/
-
-.news {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: 0 auto;
 }
