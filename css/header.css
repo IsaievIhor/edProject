@@ -8,6 +8,7 @@
     padding: 0 15px;
     display: flex;
     justify-content: space-between
+
 }
 
 .logo {
@@ -15,7 +16,7 @@
     padding: 25px;
 }
 
-.logo__img{
+.logo__img {
     width: 60px;
     height: 60px;
     padding-right: 15px;
@@ -194,20 +195,12 @@
 .clinic_menu__list li {
     display: inline-flex;
     list-style: none;
-    padding-right:20px;
+    padding-right: 20px;
 
 }
 
 
 /*ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ¸ ÐºÐ»Ð¸Ð½Ð¸Ðº*/
-main {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    justify-content: space-between
-}
-
 .clinic_container {
     width: 100%;
     display: flex;
@@ -230,32 +223,24 @@ main {
 
 .clinic_card__head {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.clinic_card__head img{
-    width:200px;
-    height:55px;
+
+.clinic_card__head img {
+    width: 200px;
+    height: 55px;
 }
-.clinic_card__head h5{
+
+.clinic_card__head h5 {
     font-size: 36px;
     font-family: "Helvetica Grumov";
     color: rgb(73, 72, 72);
-    margin:0;
+    margin: 0;
 }
+
 /*Ñ„ÑƒÑ‚ÐµÑ€*/
-.footer {
-
-}
-
-.footer__top {
+.footer-top {
     background-color: #60c8c7;
-}
-
-.footer__logo {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 
