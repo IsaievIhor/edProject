@@ -16,4 +16,11 @@ gulp.task('scss',function () {
     return gulp.src('src/scss/main.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css'));
+});
+
+
+
+
+gulp.task('watch', function () {
+
 })
