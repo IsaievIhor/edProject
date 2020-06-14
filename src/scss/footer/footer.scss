@@ -1,0 +1,59 @@
+.footer-top {
+  background-color: #60c8c7;
+}
+
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__adress-link {
+  list-style: none;
+  align-items: center;
+}
+
+.link img {
+  float: left;
+  padding-right: 25px;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__link-link {
+  list-style: none;
+}
+
+.footer__service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__service-link {
+  list-style: none;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer__copiryte {
+  display: flex;
+  justify-content: center;
+  background-color: #60c8c7;
+}

@@ -382,7 +382,6 @@ template {
 .header__topmenu_link-active {
   color: white; }
 
-/*банер*/
 .baner {
   background-color: #ccd5e7; }
 
@@ -413,50 +412,6 @@ template {
 .baner-form {
   margin: 35px 15px; }
 
-/*ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ° Ð¿Ñ€ÐµÐ¸Ð¼ÑƒÑ‰ÐµÑÑ‚Ð²*/
-.advantages {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  justify-content: space-between; }
-
-.advantages-card {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  margin: 0 auto; }
-
-.advantages-card_img {
-  background-color: white;
-  border-radius: 50%;
-  border: 20px solid white;
-  width: 40px;
-  height: 40px;
-  margin-top: 50px; }
-
-.advantages-card__list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 360px;
-  padding: 10px;
-  color: white;
-  font-size: 16px;
-  font-family: "Ubuntu"; }
-
-.advantages-card__list-first {
-  background-color: #00afab; }
-
-.advantages-card__list-second {
-  background-color: #63ccca; }
-
-.advantages-card__list-third {
-  background-color: #00afab; }
-
-.advantages-card__list-fourth {
-  background-color: #63ccca; }
-
 .clinic_menu {
   max-width: 1440px;
   margin: 0 auto; }
@@ -485,22 +440,22 @@ template {
   border: 2px solid #60c8c7; }
 
 .item-1 {
-  border: 4px solid #07f26a; }
+  border: 4px solid #3c4775; }
 
 .item-2 {
-  border: 2px solid #5d01f2; }
+  border: 2px solid #a4a924; }
 
 .item-3 {
-  border: 4px solid #fa6543; }
+  border: 4px solid #149237; }
 
 .item-4 {
-  border: 2px solid #c8d105; }
+  border: 2px solid #f18f32; }
 
 .item-5 {
-  border: 4px solid #12ddc0; }
+  border: 4px solid #930e19; }
 
 .item-6 {
-  border: 2px solid #8d5b66; }
+  border: 2px solid #bfdece; }
 
 .clinic_card__head {
   display: flex;
@@ -516,7 +471,6 @@ template {
   color: #494848;
   margin: 0; }
 
-/*news*/
 .news {
   display: flex;
   justify-content: space-between;
@@ -524,7 +478,6 @@ template {
   margin: 0 auto;
   padding: 20px; }
 
-/*футер*/
 .footer-top {
   background-color: #60c8c7; }
 

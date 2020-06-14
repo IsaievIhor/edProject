@@ -1,0 +1,65 @@
+.clinic_menu {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.clinic_menu__list li {
+  display: inline-flex;
+  list-style: none;
+  padding-right: 20px;
+
+}
+
+
+/*ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ¸ ÐºÐ»Ð¸Ð½Ð¸Ðº*/
+.clinic_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clinic_list {
+  padding: 20px 0;
+}
+
+.clinic_card {
+  max-width: 680px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #60c8c7;
+}
+
+
+
+@for $i from 1 through 6 {
+  @if($i %2==1) {
+    .item-#{$i} {
+      border: 4px solid rgb(255*random(), 255*random(),255*random());
+    }
+  }@else {
+    .item-#{$i} {
+      border: 2px solid rgb(255*random(), 255*random(),255*random());
+    }
+  }
+}
+
+
+.clinic_card__head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.clinic_card__head img {
+  width: 200px;
+  height: 55px;
+}
+
+.clinic_card__head h5 {
+  font-size: 36px;
+  font-family: "Helvetica Grumov";
+  color: rgb(73, 72, 72);
+  margin: 0;
+}

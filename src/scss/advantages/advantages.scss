@@ -1,0 +1,51 @@
+.advantages {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between
+}
+
+.advantages-card {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.advantages-card_img {
+  background-color: white;
+  border-radius: 50%;
+  border: 20px solid white;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.advantages-card__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-family: "Ubuntu";
+}
+
+.advantages-card__list-first {
+  background-color: #00afab;
+}
+
+.advantages-card__list-second {
+  background-color: #63ccca;
+}
+
+.advantages-card__list-third {
+  background-color: #00afab;
+
+}
+
+.advantages-card__list-fourth {
+  background-color: #63ccca;
+}
