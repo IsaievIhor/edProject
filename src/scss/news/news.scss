@@ -1,17 +1,44 @@
 .news {
   display: flex;
-  justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
   padding:20px;
+  flex-wrap: wrap;
 }
+
+.fast{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  flex-wrap: wrap;
+  min-width: 690px;
+}
+.fast__content{
+  display: flex;
+  padding: 20px;
+
+}
+
 .fast__btn{
   display: flex;
-  flex-direction: row;
-  flex: 2;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-
 .reviews{
-  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 2;
+  padding: 20px;
+  min-width: 320px;
+}
+.reviews__btn{
+  justify-content: flex-end;
+}
+img {
+  padding: 20px;
+}
+.reviews p{
+  padding: 20px;
 }
