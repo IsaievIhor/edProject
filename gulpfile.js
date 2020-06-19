@@ -14,7 +14,7 @@ gulp.task('scss',function () {
 
 
 gulp.task('imagemin',function () {
-    gulp.src('./src/scss/**/image/*.*')
+    return gulp.src('./src/scss/**/image/*.*')
         .pipe(imagemin([
             imagemin.gifsicle({interlaced: true}),
             imagemin.mozjpeg({quality: 75, progressive: true}),
